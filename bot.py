@@ -268,7 +268,7 @@ BOT_TOKEN = os.getenv("BOT_TOKEN", "8869136136:AAGm4Zelplf0yV1qFjhRLuptDEiV3lb-_
 
 # আপনার Telegram numeric User ID এখানে বসান
 # একাধিক Admin হলে: {123456789, 987654321}
-ADMIN_IDS = {int(x.strip()) for x in os.getenv("ADMIN_IDS", "6995426618", "6425206708").split(",") if x.strip().isdigit()}
+ADMIN_IDS = {int(x.strip()) for x in os.getenv("ADMIN_IDS", "6425206708").split(",") if x.strip().isdigit()}
 
 # ============================================================
 
